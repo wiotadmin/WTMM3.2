@@ -43,25 +43,48 @@
                             <span ng-show="badge > 0" class="badge badge-positive">{{badge}}</span>
                         </a>
                     </li>
+                              
+                    <li class="item item-divider"></li>
                     <li>
-                        <a menu-close class="item item-icon-left" ng-href="{{siteinfo.siteurl}}" mm-link auto-login="yes" title="{{ 'mm.sidemenu.website' | translate}}">
-                            <i class="icon ion-earth"></i>{{ 'mm.sidemenu.website' | translate}}
+                        <a menu-close class="item item-icon-left" ng-href="http://www.wodongatafe.edu.au" mm-browser title="TAFE Website">
+                            <i class="icon ion-earth"></i>TAFE Website
                         </a>
                     </li>
                     <li>
-                        <a menu-close class="item item-icon-left" ng-href="{{docsurl}}" mm-link auto-login="no" title="{{ 'mm.sidemenu.help' | translate}}">
-                            <i class="icon ion-help-buoy"></i>{{ 'mm.sidemenu.help' | translate}}
+                        <a menu-close class="item item-icon-left" ng-href="{{siteinfo.siteurl}}" mm-browser title="Moodle Website">
+                            <i class="icon ion-earth"></i>Moodle Website
                         </a>
                     </li>
+                    <li>
+                        <a menu-close class="item item-icon-left" ng-href="http://sc.wodongatafe.edu.au" mm-browser title="Student Central">
+                            <i class="icon ion-earth"></i>Student Central
+                        </a>
+                    </li>
+                    <li>
+                        <a menu-close class="item item-icon-left" ng-href="https://webmail.wodongatafe.edu.au/owa/" mm-link title="Webmail">
+                            <i class="icon ion-email"></i>Webmail
+                        </a>
+                    </li>
+                    <li>
+                        <a menu-close class="item item-icon-left" ng-href="https://sc.wodongatafe.edu.au/My-Details/Change-Password" mm-browser title="Change Password">
+                            <i class="icon ion-key"></i>Change Password
+                        </a>
+                    </li>
+                  
                     <li class="item item-divider"></li>
                     <li>
                         <a menu-close class="item item-icon-left" ui-sref="site.mm_settings" title="{{ 'mm.sidemenu.appsettings' | translate}}">
                             <i class="icon ion-gear-b"></i>{{ 'mm.sidemenu.appsettings' | translate}}
                         </a>
                     </li>
-                    <li>
-                        <a class="item item-icon-left" ng-click="logout()" title="{{ 'mm.sidemenu.changesite' | translate}}">
-                            <i class="icon ion-log-out"></i>{{ 'mm.sidemenu.changesite' | translate}}
+                  <li>
+                        <a class="item item-icon-left" ng-click="logout()" title="Change account">
+                            <i class="icon ion-log-out"></i>Change account
+                        </a>
+                    </li>
+                      <li>
+                        <a menu-close class="item item-icon-left" ng-href="{{docsurl}}" mm-link auto-login="no" title="{{ 'mm.sidemenu.help' | translate}}">
+                            <i class="icon ion-help-buoy"></i>{{ 'mm.sidemenu.help' | translate}}
                         </a>
                     </li>
                 </ul>
