@@ -3,9 +3,9 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.moodle.moodlemobile"
-        versionCode = "20160"
+        versionCode = "20161"
         version   = "3.2.0">
-    <name>WT Mobile</name>
+    <name>WT Moodle</name>
 
     <description>
         Wodonga TAFE's Moodle Mobile app
