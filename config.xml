@@ -4,7 +4,7 @@
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.wodongatafe.moodlemobile"
         versionCode = "100254"
-        version   = "3.2.1.3">
+        version   = "3.2.1.4">
     <name>WT Moodle</name>
 
     <description>
@@ -16,7 +16,7 @@
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
-        <string>3.2.1.3</string>
+        <string>3.2.1.4</string>
     </gap:config-file>
 
     <gap:platform name="ios" />
@@ -109,10 +109,10 @@
     <gap:splash src="resources/ios/splash/Default@2x~iphone.png"          gap:platform="ios" width="640" height="960"/>
     <gap:splash src="resources/ios/splash/Default~iphone.png"             gap:platform="ios" width="320" height="480"/>
 
-    <gap:plugin name="cordova-plugin-camera" source="npm"> 
-        <variable name="CAMERA_USAGE_DESCRIPTION" value="App would like to access the camera." />
-        <variable name="MICROPHONE_USAGE_DESCRIPTION" value="App would like to access the microphone." />
-        <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="App would like to access the library." />
+    <gap:plugin name="cordova-plugin-media-capture" source="npm" spec="*"> 
+        <variable name="CAMERA_USAGE_DESCRIPTION" value="WT Moodle would like to access the camera." />
+        <variable name="MICROPHONE_USAGE_DESCRIPTION" value="WT Moodle would like to access the microphone." />
+        <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="WT Moodle would like to access the library." />
     </gap:plugin>
     <gap:plugin name="cordova-plugin-device" source="npm" />
     <gap:plugin name="cordova-plugin-file" source="npm" />
