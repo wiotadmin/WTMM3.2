@@ -111,9 +111,9 @@
 
     <gap:plugin name="cordova-plugin-camera" source="npm" />
     <gap:plugin name="cordova-plugin-media-capture" source="npm" spec="*">
-          <variable name="CAMERA_USAGE_DESCRIPTION" value="App would like to access the camera." />
-          <variable name="MICROPHONE_USAGE_DESCRIPTION" value="App would like to access the microphone." />
-          <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="App would like to access the library." />
+          <variable name="CAMERA_USAGE_DESCRIPTION" value="WT Moodle would like to access the camera." />
+          <variable name="MICROPHONE_USAGE_DESCRIPTION" value="WT Moodle would like to access the microphone." />
+          <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="WT Moodle would like to access the library." />
     </gap:plugin>
     
     <gap:plugin name="cordova-plugin-device" source="npm" />
