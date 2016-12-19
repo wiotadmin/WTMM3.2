@@ -109,7 +109,12 @@
     <gap:splash src="resources/ios/splash/Default@2x~iphone.png"          gap:platform="ios" width="640" height="960"/>
     <gap:splash src="resources/ios/splash/Default~iphone.png"             gap:platform="ios" width="320" height="480"/>
 
-    <gap:plugin name="cordova-plugin-camera" source="npm" />         
+    <gap:plugin name="cordova-plugin-camera" source="npm" />    
+    <gap:plugin name="cordova-plugin-media-capture" source="npm" spec="*">
+          <param name="CAMERA_USAGE_DESCRIPTION" value="WT Moodle would like to access the camera." />
+          <param name="MICROPHONE_USAGE_DESCRIPTION" value="WT Moodle would like to access the microphone." />
+          <param name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="WT Moodle would like to access the library." />
+    </gap:plugin>
     <gap:plugin name="cordova-plugin-device" source="npm" />
     <gap:plugin name="cordova-plugin-file" source="npm" />
     <gap:plugin name="cordova-plugin-file-transfer" source="npm" />
